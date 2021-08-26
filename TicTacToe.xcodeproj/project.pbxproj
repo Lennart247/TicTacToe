@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71AD95E26D6A32300C922D8 /* TicTacToeAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AD95D26D6A32300C922D8 /* TicTacToeAI.swift */; };
 		A794DE8B26D669D1004584DF /* TicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A794DE8A26D669D1004584DF /* TicTacToeApp.swift */; };
 		A794DE8D26D669D1004584DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A794DE8C26D669D1004584DF /* ContentView.swift */; };
 		A794DE8F26D669D2004584DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A794DE8E26D669D2004584DF /* Assets.xcassets */; };
 		A794DE9226D669D2004584DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A794DE9126D669D2004584DF /* Preview Assets.xcassets */; };
+		A794DE9A26D66DFC004584DF /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A794DE9926D66DFC004584DF /* FieldView.swift */; };
+		A794DE9C26D67621004584DF /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A794DE9B26D67621004584DF /* TicTacToeModel.swift */; };
+		A794DE9E26D67936004584DF /* TTTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A794DE9D26D67936004584DF /* TTTViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71AD95D26D6A32300C922D8 /* TicTacToeAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeAI.swift; sourceTree = "<group>"; };
 		A794DE8726D669D1004584DF /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A794DE8A26D669D1004584DF /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		A794DE8C26D669D1004584DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A794DE8E26D669D2004584DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A794DE9126D669D2004584DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A794DE9326D669D2004584DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A794DE9926D66DFC004584DF /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		A794DE9B26D67621004584DF /* TicTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeModel.swift; sourceTree = "<group>"; };
+		A794DE9D26D67936004584DF /* TTTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				A794DE8E26D669D2004584DF /* Assets.xcassets */,
 				A794DE9326D669D2004584DF /* Info.plist */,
 				A794DE9026D669D2004584DF /* Preview Content */,
+				A794DE9926D66DFC004584DF /* FieldView.swift */,
+				A794DE9B26D67621004584DF /* TicTacToeModel.swift */,
+				A794DE9D26D67936004584DF /* TTTViewModel.swift */,
+				A71AD95D26D6A32300C922D8 /* TicTacToeAI.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A794DE9C26D67621004584DF /* TicTacToeModel.swift in Sources */,
+				A794DE9E26D67936004584DF /* TTTViewModel.swift in Sources */,
 				A794DE8D26D669D1004584DF /* ContentView.swift in Sources */,
+				A794DE9A26D66DFC004584DF /* FieldView.swift in Sources */,
+				A71AD95E26D6A32300C922D8 /* TicTacToeAI.swift in Sources */,
 				A794DE8B26D669D1004584DF /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
